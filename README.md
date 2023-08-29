@@ -1,1 +1,3 @@
 # simple_encryption
+
+cryptography kütüphanesini kullanarak basit bir şifreleme kodu yazdım. cryptography.io adresinde okuduğum ve anladığım kadarıyla ileri seviye, gerçek gizliliği sağlayacak şifrelemeler yapabilmek için derin öğrenmeler gerçekleştirmek gerekiyor. o yüzden bu aşamada kütüphaneleri kullanmayı öğrenmek adına basit bir şifreleme programı yazdım. dilerseniz sonraki satırdan şifrelenmiş metninizi tekrar çözebilirsiniz...
