@@ -1,0 +1,14 @@
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key()
+cipher_suite = Fernet(key)
+
+myText= input("Lütfen şifrelemek istediğiniz metni giriniz: ")
+
+secretText= cipher_suite.encrypt(myText.encode())
+
+print("şifrelenmiş metin:  ", secretText)
+
+decodeText = cipher_suite.decrypt(input("şifresini çözmek istediğiniz metni yazınız:  ")).decode()
+
+print("metnin çözülmüş hali: ", decodeText)
